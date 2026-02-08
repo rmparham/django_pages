@@ -1,0 +1,13 @@
+<!-- pages/templates/about.html -->
+{% extends 'base.html' %}
+{% load static %}
+
+{% block content %}
+<h1>About page</h1>
+
+<div>
+    <p>This is the about page.</p>
+    <img src="{% static 'pages/images/band_crop.jpg' %}" width="300">
+</div>
+
+{% endblock content %}
